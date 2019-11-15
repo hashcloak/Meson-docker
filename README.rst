@@ -2,12 +2,11 @@
 Katzenpost Mixnet Docker
 ========================
 
-This docker-compose configuration is a fork of the [katzenpost docker configuration](https://github.com/katzenpost/docker). This configuration contains Meson-specific configs and is meant to be used in combination
+This docker-compose configuration is a fork of the `katzenpost docker configuration`_. This configuration contains Meson-specific configs and is meant to be used in combination
 with the **server** and **authority** repositories. It is meant for
 testing client and server mix network components as part of the core
 Katzenpost developer work flow. It should be obvious that this
 docker-compose situation is not meant for production use.
-
 
 1. build the mix server docker image
 ::
@@ -44,3 +43,5 @@ you must run this command after shutting down the old docker composed mixnet:
 ::
 
    docker network prune
+
+.. _`katzenpost docker configuration`: https://github.com/katzenpost/docker
