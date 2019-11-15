@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/katzenpost/server
+	branch = master
+	commit = 3c51956494eb0a03ccc053412688a234da8a54d2
+	parent = d3f45e04eac1481cb78e75d4f96636f830d2a452
+	method = merge
+	cmdver = 0.4.0
